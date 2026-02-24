@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
 
-const BOT_URL = "https://t.me/pillreminder_bot";
+const BOT_URL = "https://t.me/TakeMedicineReminderBot";
 
 export default function Hero() {
   return (

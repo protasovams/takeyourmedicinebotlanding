@@ -4,7 +4,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const features = [
   { icon: Pill, title: "Список лекарств", desc: "Добавляй и управляй своими лекарствами" },
   { icon: Bell, title: "Напоминания", desc: "Утро, день, вечер или любое время" },
-  { icon: Timer, title: "Отложить", desc: "Таймер на 10 минут по умолчанию" },
+  { icon: Timer, title: "Отложить", desc: "Таймер на 10 минут или на другое время" },
   { icon: BarChart3, title: "Статистика", desc: "Еженедельная сводка приёмов" },
   { icon: Heart, title: "Мотивация", desc: "Поддерживающие сообщения (можно отключить)" },
   { icon: MessageCircle, title: "Обратная связь", desc: "Пиши нам прямо из бота" },

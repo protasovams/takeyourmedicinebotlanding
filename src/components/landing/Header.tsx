@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
-const BOT_URL = "https://t.me/pillreminder_bot";
+const BOT_URL = "https://t.me/TakeMedicineReminderBot";
 
 const navItems = [
   { label: "Главная", href: "#hero" },
