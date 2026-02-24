@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const BOT_URL = "https://t.me/pillreminder_bot";
+const BOT_URL = "https://t.me/TakeMedicineReminderBot";
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
           </a>
           <span>Политика конфиденциальности</span>
           <a href={BOT_URL} target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity">
-            @pillreminder_bot
+            @TakeMedicineReminderBot
           </a>
         </div>
         <Button

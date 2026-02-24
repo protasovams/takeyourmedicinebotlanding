@@ -4,8 +4,8 @@ const steps = [
   {
     num: "1",
     title: "Открой бота",
-    desc: "Найди @pillreminder_bot в Telegram и нажми «Старт»",
-    placeholder: "🔍 @pillreminder_bot → /start",
+    desc: "Найди @TakeMedicineReminderBot в Telegram и нажми «Старт»",
+    placeholder: "🔍 @TakeMedicineReminderBot → /start",
   },
   {
     num: "2",
