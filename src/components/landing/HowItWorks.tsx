@@ -37,7 +37,7 @@ export default function HowItWorks() {
               className={`text-center flex flex-col ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
               style={{ animationDelay: `${i * 0.2}s` }}
             >
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-warm text-warm-foreground flex items-center justify-center text-2xl font-bold">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-2xl font-bold">
                 {s.num}
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2">{s.title}</h3>
