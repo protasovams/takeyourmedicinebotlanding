@@ -23,16 +23,18 @@ export default function Features() {
           {features.map((f, i) => (
             <div
               key={f.title}
-              className={`bg-card border border-border rounded-xl p-6 shadow-md hover-scale ${
+              className={`bg-card border border-border rounded-xl p-4 shadow-md hover-scale flex items-start gap-4 ${
                 isVisible ? "animate-fade-in-up" : "opacity-0"
               }`}
               style={{ animationDelay: `${i * 0.1}s` }}
             >
-              <div className="w-12 h-12 mb-4 rounded-lg bg-accent/10 flex items-center justify-center">
-                <f.icon className="h-6 w-6 text-accent" />
+              <div className="w-10 h-10 shrink-0 rounded-lg bg-accent/10 flex items-center justify-center">
+                <f.icon className="h-5 w-5 text-accent" />
               </div>
-              <h3 className="text-lg font-bold text-foreground mb-1">{f.title}</h3>
-              <p className="text-muted-foreground text-sm">{f.desc}</p>
+              <div>
+                <h3 className="text-base font-bold text-foreground mb-0.5">{f.title}</h3>
+                <p className="text-muted-foreground text-sm">{f.desc}</p>
+              </div>
             </div>
           ))}
         </div>
