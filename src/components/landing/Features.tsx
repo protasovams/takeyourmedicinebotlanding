@@ -28,8 +28,8 @@ export default function Features() {
               }`}
               style={{ animationDelay: `${i * 0.1}s` }}
             >
-              <div className="w-12 h-12 mb-4 rounded-lg bg-accent/10 flex items-center justify-center">
-                <f.icon className="h-6 w-6 text-accent" />
+              <div className="w-12 h-12 mb-4 rounded-lg bg-warm/10 flex items-center justify-center">
+                <f.icon className="h-6 w-6 text-warm" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-1">{f.title}</h3>
               <p className="text-muted-foreground text-sm">{f.desc}</p>
