@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
@@ -47,6 +47,7 @@ export default function Header() {
           ))}
           <Button asChild size="sm" className="hover-scale">
             <a href={BOT_URL} target="_blank" rel="noopener noreferrer">
+              <Send className="mr-2 h-4 w-4" />
               Открыть бота
             </a>
           </Button>
@@ -74,6 +75,7 @@ export default function Header() {
               ))}
               <Button asChild className="mt-4 hover-scale">
                 <a href={BOT_URL} target="_blank" rel="noopener noreferrer">
+                  <Send className="mr-2 h-4 w-4" />
                   Открыть бота
                 </a>
               </Button>
