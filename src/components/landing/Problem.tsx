@@ -40,8 +40,8 @@ export default function Problem() {
               }`}
               style={{ animationDelay: `${i * 0.15}s` }}
             >
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                <card.icon className="h-7 w-7 text-primary" />
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-warm/10 flex items-center justify-center">
+                <card.icon className="h-7 w-7 text-warm" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2">{card.title}</h3>
               <p className="text-muted-foreground">{card.desc}</p>
