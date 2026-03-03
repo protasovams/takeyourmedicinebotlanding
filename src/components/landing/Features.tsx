@@ -23,7 +23,7 @@ export default function Features() {
           {features.map((f, i) => (
             <div
               key={f.title}
-              className={`bg-gradient-to-br from-[hsl(205,80%,97%)] to-[hsl(205,60%,93%)] border border-border rounded-xl p-4 shadow-md hover-scale flex items-start gap-4 ${
+              className={`bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-4 shadow-md hover-scale flex items-start gap-4 ${
                 isVisible ? "animate-fade-in-up" : "opacity-0"
               }`}
               style={{ animationDelay: `${i * 0.1}s` }}

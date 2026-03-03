@@ -35,7 +35,7 @@ export default function Problem() {
           {cards.map((card, i) => (
             <div
               key={card.title}
-              className={`bg-card border border-border rounded-xl p-6 text-center shadow-md hover-scale ${
+              className={`bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-6 text-center shadow-md hover-scale ${
                 isVisible ? "animate-fade-in-up" : "opacity-0"
               }`}
               style={{ animationDelay: `${i * 0.15}s` }}
