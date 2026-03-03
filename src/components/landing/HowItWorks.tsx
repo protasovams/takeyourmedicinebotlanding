@@ -4,7 +4,7 @@ const steps = [
   {
     num: "1",
     title: "Открой бота",
-    desc: "Найди @TakeMedicineReminderBot в Telegram или открой бота по кнопке ниже и нажми «Старт»",
+    desc: "Открой бота по кнопке на сайте (или найди @TakeMedicineReminderBot в Telegram) и нажми «Старт»",
     placeholder: "🔍 @TakeMedicineReminderBot → /start",
   },
   {
@@ -34,14 +34,14 @@ export default function HowItWorks() {
           {steps.map((s, i) => (
             <div
               key={s.num}
-              className={`text-center ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
+              className={`text-center flex flex-col ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
               style={{ animationDelay: `${i * 0.2}s` }}
             >
               <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-2xl font-bold">
                 {s.num}
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2">{s.title}</h3>
-              <p className="text-muted-foreground mb-4">{s.desc}</p>
+              <p className="text-muted-foreground mb-4 flex-1">{s.desc}</p>
               <div className="bg-card border border-border rounded-xl p-4 text-left text-sm text-foreground whitespace-pre-line shadow-sm">
                 {s.placeholder}
               </div>
