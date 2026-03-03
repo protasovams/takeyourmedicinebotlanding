@@ -18,7 +18,7 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-muted-foreground">
             Настрой напоминания за 2 минуты и больше ничего не забудешь
           </p>
-          <Button asChild size="lg" className="hover-scale shadow-[0_4px_20px_hsl(var(--primary)/0.25)]">
+          <Button asChild className="hover-scale shadow-[0_4px_20px_hsl(var(--primary)/0.25)] h-14 px-10 text-lg rounded-xl">
             <a href={BOT_URL} target="_blank" rel="noopener noreferrer">
               <Send className="mr-2 h-5 w-5" />
               Начать бесплатно

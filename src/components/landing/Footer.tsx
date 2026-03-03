@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Send } from "lucide-react";
 
 const BOT_URL = "https://t.me/TakeMedicineReminderBot";
 
@@ -24,6 +25,7 @@ export default function Footer() {
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 hover-scale"
         >
           <a href={BOT_URL} target="_blank" rel="noopener noreferrer">
+            <Send className="mr-2 h-5 w-5" />
             Открыть бота
           </a>
         </Button>
