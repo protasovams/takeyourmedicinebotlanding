@@ -9,7 +9,7 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center pt-16 bg-background"
     >
-      <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 md:px-12 lg:px-16 grid md:grid-cols-2 gap-12 items-center">
         {/* Text */}
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight text-foreground">
