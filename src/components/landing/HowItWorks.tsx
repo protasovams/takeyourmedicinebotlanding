@@ -1,5 +1,3 @@
-import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
 const steps = [
   {
     num: "1",
@@ -22,21 +20,15 @@ const steps = [
 ];
 
 export default function HowItWorks() {
-  const { ref, isVisible } = useScrollAnimation();
-
   return (
     <section id="how-it-works" className="py-24 md:py-28 bg-background">
-      <div className="container mx-auto px-4" ref={ref}>
+      <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
           3 простых шага
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
-          {steps.map((s, i) => (
-            <div
-              key={s.num}
-              className={`text-center flex flex-col ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
-              style={{ animationDelay: `${i * 0.2}s` }}
-            >
+          {steps.map((s) => (
+            <div key={s.num} className="text-center flex flex-col">
               <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-2xl font-bold">
                 {s.num}
               </div>
