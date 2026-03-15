@@ -20,7 +20,7 @@ export default function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-4 shadow-md hover-scale flex items-start gap-4"
+              className="bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-4 shadow-md flex items-start gap-4"
             >
               <div className="w-10 h-10 shrink-0 rounded-lg bg-accent/10 flex items-center justify-center">
                 <f.icon className="h-5 w-5 text-accent" />
