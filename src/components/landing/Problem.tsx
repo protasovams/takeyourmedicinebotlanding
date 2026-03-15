@@ -20,7 +20,7 @@ export default function Problem() {
           {cards.map((card) => (
             <div
               key={card.title}
-              className="bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-6 text-center shadow-md hover-scale"
+              className="bg-gradient-to-br from-[hsl(205,80%,99%)] to-[hsl(205,60%,96%)] border border-border rounded-xl p-6 text-center shadow-md"
             >
               <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <card.icon className="h-7 w-7 text-primary" />
